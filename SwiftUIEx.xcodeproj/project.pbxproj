@@ -16,6 +16,7 @@
 		3D966BF929417AC000BB96A9 /* SwiftUIExTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D966BF829417AC000BB96A9 /* SwiftUIExTests.swift */; };
 		3D966C0329417AC000BB96A9 /* SwiftUIExUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D966C0229417AC000BB96A9 /* SwiftUIExUITests.swift */; };
 		3D966C0529417AC000BB96A9 /* SwiftUIExUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D966C0429417AC000BB96A9 /* SwiftUIExUITestsLaunchTests.swift */; };
+		3D966C122941841700BB96A9 /* ImageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D966C112941841700BB96A9 /* ImageContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		3D966BFE29417AC000BB96A9 /* SwiftUIExUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIExUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D966C0229417AC000BB96A9 /* SwiftUIExUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExUITests.swift; sourceTree = "<group>"; };
 		3D966C0429417AC000BB96A9 /* SwiftUIExUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3D966C112941841700BB96A9 /* ImageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				3D966BE229417ABE00BB96A9 /* SwiftUIExApp.swift */,
+				3D966C112941841700BB96A9 /* ImageContentView.swift */,
 				3D966BE429417ABE00BB96A9 /* ContentView.swift */,
 				3D966BE629417AC000BB96A9 /* Assets.xcassets */,
 				3D966BEB29417AC000BB96A9 /* Persistence.swift */,
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D966BEC29417AC000BB96A9 /* Persistence.swift in Sources */,
+				3D966C122941841700BB96A9 /* ImageContentView.swift in Sources */,
 				3D966BE529417ABE00BB96A9 /* ContentView.swift in Sources */,
 				3D966BEF29417AC000BB96A9 /* SwiftUIEx.xcdatamodeld in Sources */,
 				3D966BE329417ABE00BB96A9 /* SwiftUIExApp.swift in Sources */,
