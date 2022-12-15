@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1268F3042945C7B000A4CD7D /* ShapeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1268F3032945C7B000A4CD7D /* ShapeContentView.swift */; };
+		3D47FA99294AB19700E753E1 /* ButtonContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47FA98294AB19700E753E1 /* ButtonContentView.swift */; };
+		3D47FA9B294ABC5100E753E1 /* ToggleContentVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47FA9A294ABC5100E753E1 /* ToggleContentVIew.swift */; };
+		3D47FA9D294AE34F00E753E1 /* ListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47FA9C294AE34F00E753E1 /* ListContentView.swift */; };
+		3D47FA9F294AEF3100E753E1 /* ListSectionContentVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47FA9E294AEF3100E753E1 /* ListSectionContentVIew.swift */; };
 		3D966BE329417ABE00BB96A9 /* SwiftUIExApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D966BE229417ABE00BB96A9 /* SwiftUIExApp.swift */; };
 		3D966BE529417ABE00BB96A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D966BE429417ABE00BB96A9 /* ContentView.swift */; };
 		3D966BE729417AC000BB96A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D966BE629417AC000BB96A9 /* Assets.xcassets */; };
@@ -39,6 +43,10 @@
 
 /* Begin PBXFileReference section */
 		1268F3032945C7B000A4CD7D /* ShapeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeContentView.swift; sourceTree = "<group>"; };
+		3D47FA98294AB19700E753E1 /* ButtonContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonContentView.swift; sourceTree = "<group>"; };
+		3D47FA9A294ABC5100E753E1 /* ToggleContentVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleContentVIew.swift; sourceTree = "<group>"; };
+		3D47FA9C294AE34F00E753E1 /* ListContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListContentView.swift; sourceTree = "<group>"; };
+		3D47FA9E294AEF3100E753E1 /* ListSectionContentVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSectionContentVIew.swift; sourceTree = "<group>"; };
 		3D966BDF29417ABE00BB96A9 /* SwiftUIEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D966BE229417ABE00BB96A9 /* SwiftUIExApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExApp.swift; sourceTree = "<group>"; };
 		3D966BE429417ABE00BB96A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,6 +93,10 @@
 				3D966C112941841700BB96A9 /* ImageContentView.swift */,
 				1268F3032945C7B000A4CD7D /* ShapeContentView.swift */,
 				3D966BE429417ABE00BB96A9 /* ContentView.swift */,
+				3D47FA98294AB19700E753E1 /* ButtonContentView.swift */,
+				3D47FA9A294ABC5100E753E1 /* ToggleContentVIew.swift */,
+				3D47FA9C294AE34F00E753E1 /* ListContentView.swift */,
+				3D47FA9E294AEF3100E753E1 /* ListSectionContentVIew.swift */,
 			);
 			path = ContentsViews;
 			sourceTree = "<group>";
@@ -277,11 +289,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D47FA9D294AE34F00E753E1 /* ListContentView.swift in Sources */,
 				3D966BEC29417AC000BB96A9 /* Persistence.swift in Sources */,
+				3D47FA99294AB19700E753E1 /* ButtonContentView.swift in Sources */,
+				3D47FA9B294ABC5100E753E1 /* ToggleContentVIew.swift in Sources */,
 				3D966C122941841700BB96A9 /* ImageContentView.swift in Sources */,
 				1268F3042945C7B000A4CD7D /* ShapeContentView.swift in Sources */,
 				3D966BE529417ABE00BB96A9 /* ContentView.swift in Sources */,
 				3D966BEF29417AC000BB96A9 /* SwiftUIEx.xcdatamodeld in Sources */,
+				3D47FA9F294AEF3100E753E1 /* ListSectionContentVIew.swift in Sources */,
 				3D966BE329417ABE00BB96A9 /* SwiftUIExApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

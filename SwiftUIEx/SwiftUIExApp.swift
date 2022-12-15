@@ -13,7 +13,7 @@ struct SwiftUIExApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ShapeContentView()
+            ListSectionContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
