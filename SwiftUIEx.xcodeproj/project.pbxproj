@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1268F3042945C7B000A4CD7D /* ShapeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1268F3032945C7B000A4CD7D /* ShapeContentView.swift */; };
+		12DF98D6294F0E7F001D0257 /* ViewModifierContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DF98D5294F0E7F001D0257 /* ViewModifierContentView.swift */; };
+		12DF98D8294F149F001D0257 /* AlertContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DF98D7294F149F001D0257 /* AlertContentView.swift */; };
 		3D47FA99294AB19700E753E1 /* ButtonContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47FA98294AB19700E753E1 /* ButtonContentView.swift */; };
 		3D47FA9B294ABC5100E753E1 /* ToggleContentVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47FA9A294ABC5100E753E1 /* ToggleContentVIew.swift */; };
 		3D47FA9D294AE34F00E753E1 /* ListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47FA9C294AE34F00E753E1 /* ListContentView.swift */; };
@@ -43,6 +45,8 @@
 
 /* Begin PBXFileReference section */
 		1268F3032945C7B000A4CD7D /* ShapeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeContentView.swift; sourceTree = "<group>"; };
+		12DF98D5294F0E7F001D0257 /* ViewModifierContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierContentView.swift; sourceTree = "<group>"; };
+		12DF98D7294F149F001D0257 /* AlertContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertContentView.swift; sourceTree = "<group>"; };
 		3D47FA98294AB19700E753E1 /* ButtonContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonContentView.swift; sourceTree = "<group>"; };
 		3D47FA9A294ABC5100E753E1 /* ToggleContentVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleContentVIew.swift; sourceTree = "<group>"; };
 		3D47FA9C294AE34F00E753E1 /* ListContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 				3D47FA9A294ABC5100E753E1 /* ToggleContentVIew.swift */,
 				3D47FA9C294AE34F00E753E1 /* ListContentView.swift */,
 				3D47FA9E294AEF3100E753E1 /* ListSectionContentVIew.swift */,
+				12DF98D5294F0E7F001D0257 /* ViewModifierContentView.swift */,
+				12DF98D7294F149F001D0257 /* AlertContentView.swift */,
 			);
 			path = ContentsViews;
 			sourceTree = "<group>";
@@ -292,9 +298,11 @@
 				3D47FA9D294AE34F00E753E1 /* ListContentView.swift in Sources */,
 				3D966BEC29417AC000BB96A9 /* Persistence.swift in Sources */,
 				3D47FA99294AB19700E753E1 /* ButtonContentView.swift in Sources */,
+				12DF98D8294F149F001D0257 /* AlertContentView.swift in Sources */,
 				3D47FA9B294ABC5100E753E1 /* ToggleContentVIew.swift in Sources */,
 				3D966C122941841700BB96A9 /* ImageContentView.swift in Sources */,
 				1268F3042945C7B000A4CD7D /* ShapeContentView.swift in Sources */,
+				12DF98D6294F0E7F001D0257 /* ViewModifierContentView.swift in Sources */,
 				3D966BE529417ABE00BB96A9 /* ContentView.swift in Sources */,
 				3D966BEF29417AC000BB96A9 /* SwiftUIEx.xcdatamodeld in Sources */,
 				3D47FA9F294AEF3100E753E1 /* ListSectionContentVIew.swift in Sources */,
