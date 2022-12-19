@@ -14,6 +14,16 @@
 		3D47FA9B294ABC5100E753E1 /* ToggleContentVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47FA9A294ABC5100E753E1 /* ToggleContentVIew.swift */; };
 		3D47FA9D294AE34F00E753E1 /* ListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47FA9C294AE34F00E753E1 /* ListContentView.swift */; };
 		3D47FA9F294AEF3100E753E1 /* ListSectionContentVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47FA9E294AEF3100E753E1 /* ListSectionContentVIew.swift */; };
+		3D47FAA1294FEE3900E753E1 /* WebViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47FAA0294FEE3900E753E1 /* WebViewContentView.swift */; };
+		3D47FAA4294FF33C00E753E1 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47FAA3294FF33C00E753E1 /* WebView.swift */; };
+		3D47FAA6294FF7A300E753E1 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47FAA5294FF7A300E753E1 /* WebViewController.swift */; };
+		3D47FAA8294FF7B700E753E1 /* WebViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D47FAA7294FF7B700E753E1 /* WebViewController.storyboard */; };
+		3D47FAAA294FFF2A00E753E1 /* SomeFile.html in Resources */ = {isa = PBXBuildFile; fileRef = 3D47FAA9294FFF2A00E753E1 /* SomeFile.html */; };
+		3D47FAAC2950016E00E753E1 /* WebViewBridgeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47FAAB2950016E00E753E1 /* WebViewBridgeController.swift */; };
+		3D47FAAE2950097600E753E1 /* GridContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47FAAD2950097600E753E1 /* GridContentView.swift */; };
+		3D47FAB0295015A500E753E1 /* PlaceholderContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47FAAF295015A500E753E1 /* PlaceholderContentView.swift */; };
+		3D47FAB229502E1900E753E1 /* NavigationViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47FAB129502E1900E753E1 /* NavigationViewContentView.swift */; };
+		3D47FAB429503B8500E753E1 /* TabViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47FAB329503B8500E753E1 /* TabViewContentView.swift */; };
 		3D966BE329417ABE00BB96A9 /* SwiftUIExApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D966BE229417ABE00BB96A9 /* SwiftUIExApp.swift */; };
 		3D966BE529417ABE00BB96A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D966BE429417ABE00BB96A9 /* ContentView.swift */; };
 		3D966BE729417AC000BB96A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D966BE629417AC000BB96A9 /* Assets.xcassets */; };
@@ -24,6 +34,7 @@
 		3D966C0329417AC000BB96A9 /* SwiftUIExUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D966C0229417AC000BB96A9 /* SwiftUIExUITests.swift */; };
 		3D966C0529417AC000BB96A9 /* SwiftUIExUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D966C0429417AC000BB96A9 /* SwiftUIExUITestsLaunchTests.swift */; };
 		3D966C122941841700BB96A9 /* ImageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D966C112941841700BB96A9 /* ImageContentView.swift */; };
+		3D9CE11329503D6F00143956 /* CustomToggleContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9CE11229503D6F00143956 /* CustomToggleContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,16 @@
 		3D47FA9A294ABC5100E753E1 /* ToggleContentVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleContentVIew.swift; sourceTree = "<group>"; };
 		3D47FA9C294AE34F00E753E1 /* ListContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListContentView.swift; sourceTree = "<group>"; };
 		3D47FA9E294AEF3100E753E1 /* ListSectionContentVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSectionContentVIew.swift; sourceTree = "<group>"; };
+		3D47FAA0294FEE3900E753E1 /* WebViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewContentView.swift; sourceTree = "<group>"; };
+		3D47FAA3294FF33C00E753E1 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		3D47FAA5294FF7A300E753E1 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		3D47FAA7294FF7B700E753E1 /* WebViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WebViewController.storyboard; sourceTree = "<group>"; };
+		3D47FAA9294FFF2A00E753E1 /* SomeFile.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = SomeFile.html; sourceTree = "<group>"; };
+		3D47FAAB2950016E00E753E1 /* WebViewBridgeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewBridgeController.swift; sourceTree = "<group>"; };
+		3D47FAAD2950097600E753E1 /* GridContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridContentView.swift; sourceTree = "<group>"; };
+		3D47FAAF295015A500E753E1 /* PlaceholderContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderContentView.swift; sourceTree = "<group>"; };
+		3D47FAB129502E1900E753E1 /* NavigationViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewContentView.swift; sourceTree = "<group>"; };
+		3D47FAB329503B8500E753E1 /* TabViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewContentView.swift; sourceTree = "<group>"; };
 		3D966BDF29417ABE00BB96A9 /* SwiftUIEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D966BE229417ABE00BB96A9 /* SwiftUIExApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExApp.swift; sourceTree = "<group>"; };
 		3D966BE429417ABE00BB96A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +85,7 @@
 		3D966C0229417AC000BB96A9 /* SwiftUIExUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExUITests.swift; sourceTree = "<group>"; };
 		3D966C0429417AC000BB96A9 /* SwiftUIExUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3D966C112941841700BB96A9 /* ImageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageContentView.swift; sourceTree = "<group>"; };
+		3D9CE11229503D6F00143956 /* CustomToggleContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggleContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,17 +116,34 @@
 		1268F3052945C7EF00A4CD7D /* ContentsViews */ = {
 			isa = PBXGroup;
 			children = (
+				3D9CE11129503D5800143956 /* Toggle */,
+				3D47FAA2294FF32C00E753E1 /* WebKit */,
 				3D966C112941841700BB96A9 /* ImageContentView.swift */,
 				1268F3032945C7B000A4CD7D /* ShapeContentView.swift */,
 				3D966BE429417ABE00BB96A9 /* ContentView.swift */,
 				3D47FA98294AB19700E753E1 /* ButtonContentView.swift */,
-				3D47FA9A294ABC5100E753E1 /* ToggleContentVIew.swift */,
 				3D47FA9C294AE34F00E753E1 /* ListContentView.swift */,
 				3D47FA9E294AEF3100E753E1 /* ListSectionContentVIew.swift */,
 				12DF98D5294F0E7F001D0257 /* ViewModifierContentView.swift */,
 				12DF98D7294F149F001D0257 /* AlertContentView.swift */,
+				3D47FAAD2950097600E753E1 /* GridContentView.swift */,
+				3D47FAAF295015A500E753E1 /* PlaceholderContentView.swift */,
+				3D47FAB129502E1900E753E1 /* NavigationViewContentView.swift */,
+				3D47FAB329503B8500E753E1 /* TabViewContentView.swift */,
 			);
 			path = ContentsViews;
+			sourceTree = "<group>";
+		};
+		3D47FAA2294FF32C00E753E1 /* WebKit */ = {
+			isa = PBXGroup;
+			children = (
+				3D47FAA0294FEE3900E753E1 /* WebViewContentView.swift */,
+				3D47FAA3294FF33C00E753E1 /* WebView.swift */,
+				3D47FAA5294FF7A300E753E1 /* WebViewController.swift */,
+				3D47FAA7294FF7B700E753E1 /* WebViewController.storyboard */,
+				3D47FAAB2950016E00E753E1 /* WebViewBridgeController.swift */,
+			);
+			path = WebKit;
 			sourceTree = "<group>";
 		};
 		3D966BD629417ABE00BB96A9 = {
@@ -136,6 +175,7 @@
 				3D966BE629417AC000BB96A9 /* Assets.xcassets */,
 				3D966BED29417AC000BB96A9 /* SwiftUIEx.xcdatamodeld */,
 				3D966BE829417AC000BB96A9 /* Preview Content */,
+				3D47FAA9294FFF2A00E753E1 /* SomeFile.html */,
 			);
 			path = SwiftUIEx;
 			sourceTree = "<group>";
@@ -163,6 +203,15 @@
 				3D966C0429417AC000BB96A9 /* SwiftUIExUITestsLaunchTests.swift */,
 			);
 			path = SwiftUIExUITests;
+			sourceTree = "<group>";
+		};
+		3D9CE11129503D5800143956 /* Toggle */ = {
+			isa = PBXGroup;
+			children = (
+				3D47FA9A294ABC5100E753E1 /* ToggleContentVIew.swift */,
+				3D9CE11229503D6F00143956 /* CustomToggleContentView.swift */,
+			);
+			path = Toggle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +318,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D47FAAA294FFF2A00E753E1 /* SomeFile.html in Resources */,
+				3D47FAA8294FF7B700E753E1 /* WebViewController.storyboard in Resources */,
 				3D966BEA29417AC000BB96A9 /* Preview Assets.xcassets in Resources */,
 				3D966BE729417AC000BB96A9 /* Assets.xcassets in Resources */,
 			);
@@ -297,16 +348,25 @@
 			files = (
 				3D47FA9D294AE34F00E753E1 /* ListContentView.swift in Sources */,
 				3D966BEC29417AC000BB96A9 /* Persistence.swift in Sources */,
+				3D47FAAC2950016E00E753E1 /* WebViewBridgeController.swift in Sources */,
+				3D47FAB429503B8500E753E1 /* TabViewContentView.swift in Sources */,
+				3D47FAB229502E1900E753E1 /* NavigationViewContentView.swift in Sources */,
 				3D47FA99294AB19700E753E1 /* ButtonContentView.swift in Sources */,
 				12DF98D8294F149F001D0257 /* AlertContentView.swift in Sources */,
 				3D47FA9B294ABC5100E753E1 /* ToggleContentVIew.swift in Sources */,
 				3D966C122941841700BB96A9 /* ImageContentView.swift in Sources */,
 				1268F3042945C7B000A4CD7D /* ShapeContentView.swift in Sources */,
+				3D47FAA1294FEE3900E753E1 /* WebViewContentView.swift in Sources */,
 				12DF98D6294F0E7F001D0257 /* ViewModifierContentView.swift in Sources */,
 				3D966BE529417ABE00BB96A9 /* ContentView.swift in Sources */,
+				3D9CE11329503D6F00143956 /* CustomToggleContentView.swift in Sources */,
 				3D966BEF29417AC000BB96A9 /* SwiftUIEx.xcdatamodeld in Sources */,
+				3D47FAAE2950097600E753E1 /* GridContentView.swift in Sources */,
 				3D47FA9F294AEF3100E753E1 /* ListSectionContentVIew.swift in Sources */,
+				3D47FAB0295015A500E753E1 /* PlaceholderContentView.swift in Sources */,
 				3D966BE329417ABE00BB96A9 /* SwiftUIExApp.swift in Sources */,
+				3D47FAA6294FF7A300E753E1 /* WebViewController.swift in Sources */,
+				3D47FAA4294FF33C00E753E1 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,7 +525,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIEx/Preview Content\"";
-				DEVELOPMENT_TEAM = QUVU2PY6PG;
+				DEVELOPMENT_TEAM = 87LF83524P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -494,7 +554,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIEx/Preview Content\"";
-				DEVELOPMENT_TEAM = QUVU2PY6PG;
+				DEVELOPMENT_TEAM = 87LF83524P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

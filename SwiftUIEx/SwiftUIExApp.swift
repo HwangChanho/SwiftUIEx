@@ -13,7 +13,7 @@ struct SwiftUIExApp: App {
 
     var body: some Scene {
         WindowGroup {
-            AlertContentView()
+            CustomToggleContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
