@@ -10,7 +10,6 @@ import SwiftUI
 struct AlertContentView: View {
     
     @State private var isShowAlert = false
-    
     @State private var selectText = "..."
     
     var body: some View {

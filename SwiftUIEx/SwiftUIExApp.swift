@@ -13,7 +13,7 @@ struct SwiftUIExApp: App {
 
     var body: some Scene {
         WindowGroup {
-            CustomToggleContentView()
+            ScrollViewReaderContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
