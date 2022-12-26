@@ -13,7 +13,7 @@ struct SwiftUIExApp: App {
 
     var body: some Scene {
         WindowGroup {
-            BindingContentView()
+            GridViewContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

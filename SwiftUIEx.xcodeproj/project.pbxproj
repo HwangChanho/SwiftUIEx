@@ -32,6 +32,9 @@
 		3D66F8302959360F00DFFF29 /* EnvironmentObjectContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D66F82F2959360F00DFFF29 /* EnvironmentObjectContentView.swift */; };
 		3D66F83229595E0B00DFFF29 /* StateObjectContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D66F83129595E0B00DFFF29 /* StateObjectContentView.swift */; };
 		3D66F8342959647500DFFF29 /* AppStorageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D66F8332959647500DFFF29 /* AppStorageContentView.swift */; };
+		3D66F837295968FC00DFFF29 /* GridViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D66F836295968FC00DFFF29 /* GridViewContentView.swift */; };
+		3D66F8392959752A00DFFF29 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D66F8382959752A00DFFF29 /* Item.swift */; };
+		3D66F83B29597A3000DFFF29 /* SingleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D66F83A29597A3000DFFF29 /* SingleRow.swift */; };
 		3D966BE329417ABE00BB96A9 /* SwiftUIExApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D966BE229417ABE00BB96A9 /* SwiftUIExApp.swift */; };
 		3D966BE529417ABE00BB96A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D966BE429417ABE00BB96A9 /* ContentView.swift */; };
 		3D966BE729417AC000BB96A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D966BE629417AC000BB96A9 /* Assets.xcassets */; };
@@ -88,6 +91,9 @@
 		3D66F82F2959360F00DFFF29 /* EnvironmentObjectContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectContentView.swift; sourceTree = "<group>"; };
 		3D66F83129595E0B00DFFF29 /* StateObjectContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectContentView.swift; sourceTree = "<group>"; };
 		3D66F8332959647500DFFF29 /* AppStorageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageContentView.swift; sourceTree = "<group>"; };
+		3D66F836295968FC00DFFF29 /* GridViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewContentView.swift; sourceTree = "<group>"; };
+		3D66F8382959752A00DFFF29 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		3D66F83A29597A3000DFFF29 /* SingleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleRow.swift; sourceTree = "<group>"; };
 		3D966BDF29417ABE00BB96A9 /* SwiftUIEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D966BE229417ABE00BB96A9 /* SwiftUIExApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExApp.swift; sourceTree = "<group>"; };
 		3D966BE429417ABE00BB96A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -173,6 +179,9 @@
 		3D66F8352959689400DFFF29 /* GridViews */ = {
 			isa = PBXGroup;
 			children = (
+				3D66F836295968FC00DFFF29 /* GridViewContentView.swift */,
+				3D66F8382959752A00DFFF29 /* Item.swift */,
+				3D66F83A29597A3000DFFF29 /* SingleRow.swift */,
 			);
 			path = GridViews;
 			sourceTree = "<group>";
@@ -379,10 +388,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D66F82E2959305100DFFF29 /* ObservableObjectContentView.swift in Sources */,
+				3D66F837295968FC00DFFF29 /* GridViewContentView.swift in Sources */,
 				3D66F83229595E0B00DFFF29 /* StateObjectContentView.swift in Sources */,
 				3D47FA9D294AE34F00E753E1 /* ListContentView.swift in Sources */,
+				3D66F83B29597A3000DFFF29 /* SingleRow.swift in Sources */,
 				3D966BEC29417AC000BB96A9 /* Persistence.swift in Sources */,
 				3D47FAAC2950016E00E753E1 /* WebViewBridgeController.swift in Sources */,
+				3D66F8392959752A00DFFF29 /* Item.swift in Sources */,
 				3D47FAB429503B8500E753E1 /* TabViewContentView.swift in Sources */,
 				3D47FAB229502E1900E753E1 /* NavigationViewContentView.swift in Sources */,
 				3D66F8302959360F00DFFF29 /* EnvironmentObjectContentView.swift in Sources */,
