@@ -28,6 +28,8 @@ struct StateContentView: View {
     }
 }
 
+
+
 struct StateContentView_Previews: PreviewProvider {
     static var previews: some View {
         StateContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
