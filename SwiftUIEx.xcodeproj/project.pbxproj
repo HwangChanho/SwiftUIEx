@@ -13,6 +13,8 @@
 		12DF98DA295099CA001D0257 /* TextEditerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DF98D9295099CA001D0257 /* TextEditerContentView.swift */; };
 		12DF98DC29509D43001D0257 /* ScrollViewReaderContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DF98DB29509D43001D0257 /* ScrollViewReaderContentView.swift */; };
 		12DF98DE2950A09B001D0257 /* StateContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DF98DD2950A09B001D0257 /* StateContentView.swift */; };
+		12DF98E1295C5C06001D0257 /* JSONContentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DF98E0295C5C06001D0257 /* JSONContentsView.swift */; };
+		12DF98E3295C5CD7001D0257 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DF98E2295C5CD7001D0257 /* WebService.swift */; };
 		3D47FA99294AB19700E753E1 /* ButtonContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47FA98294AB19700E753E1 /* ButtonContentView.swift */; };
 		3D47FA9B294ABC5100E753E1 /* ToggleContentVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47FA9A294ABC5100E753E1 /* ToggleContentVIew.swift */; };
 		3D47FA9D294AE34F00E753E1 /* ListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47FA9C294AE34F00E753E1 /* ListContentView.swift */; };
@@ -72,6 +74,8 @@
 		12DF98D9295099CA001D0257 /* TextEditerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditerContentView.swift; sourceTree = "<group>"; };
 		12DF98DB29509D43001D0257 /* ScrollViewReaderContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderContentView.swift; sourceTree = "<group>"; };
 		12DF98DD2950A09B001D0257 /* StateContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateContentView.swift; sourceTree = "<group>"; };
+		12DF98E0295C5C06001D0257 /* JSONContentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONContentsView.swift; sourceTree = "<group>"; };
+		12DF98E2295C5CD7001D0257 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		3D47FA98294AB19700E753E1 /* ButtonContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonContentView.swift; sourceTree = "<group>"; };
 		3D47FA9A294ABC5100E753E1 /* ToggleContentVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleContentVIew.swift; sourceTree = "<group>"; };
 		3D47FA9C294AE34F00E753E1 /* ListContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListContentView.swift; sourceTree = "<group>"; };
@@ -164,6 +168,15 @@
 			path = ContentsViews;
 			sourceTree = "<group>";
 		};
+		12DF98DF295C5BED001D0257 /* JSONContetntsViews */ = {
+			isa = PBXGroup;
+			children = (
+				12DF98E0295C5C06001D0257 /* JSONContentsView.swift */,
+				12DF98E2295C5CD7001D0257 /* WebService.swift */,
+			);
+			path = JSONContetntsViews;
+			sourceTree = "<group>";
+		};
 		3D47FAA2294FF32C00E753E1 /* WebKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +222,7 @@
 		3D966BE129417ABE00BB96A9 /* SwiftUIEx */ = {
 			isa = PBXGroup;
 			children = (
+				12DF98DF295C5BED001D0257 /* JSONContetntsViews */,
 				1268F3052945C7EF00A4CD7D /* ContentsViews */,
 				3D66F8352959689400DFFF29 /* GridViews */,
 				3D966BE229417ABE00BB96A9 /* SwiftUIExApp.swift */,
@@ -391,6 +405,7 @@
 				3D66F837295968FC00DFFF29 /* GridViewContentView.swift in Sources */,
 				3D66F83229595E0B00DFFF29 /* StateObjectContentView.swift in Sources */,
 				3D47FA9D294AE34F00E753E1 /* ListContentView.swift in Sources */,
+				12DF98E3295C5CD7001D0257 /* WebService.swift in Sources */,
 				3D66F83B29597A3000DFFF29 /* SingleRow.swift in Sources */,
 				3D966BEC29417AC000BB96A9 /* Persistence.swift in Sources */,
 				3D47FAAC2950016E00E753E1 /* WebViewBridgeController.swift in Sources */,
@@ -412,6 +427,7 @@
 				12DF98DE2950A09B001D0257 /* StateContentView.swift in Sources */,
 				3D66F82C29592E2900DFFF29 /* Binding ContentView.swift in Sources */,
 				3D47FAAE2950097600E753E1 /* GridContentView.swift in Sources */,
+				12DF98E1295C5C06001D0257 /* JSONContentsView.swift in Sources */,
 				3D47FA9F294AEF3100E753E1 /* ListSectionContentVIew.swift in Sources */,
 				3D47FAB0295015A500E753E1 /* PlaceholderContentView.swift in Sources */,
 				3D966BE329417ABE00BB96A9 /* SwiftUIExApp.swift in Sources */,
