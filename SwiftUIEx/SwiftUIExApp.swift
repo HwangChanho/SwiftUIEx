@@ -13,7 +13,7 @@ struct SwiftUIExApp: App {
 
     var body: some Scene {
         WindowGroup {
-            JSONContentsView()
+            JSONContentView2()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

@@ -37,6 +37,7 @@
 		3D66F837295968FC00DFFF29 /* GridViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D66F836295968FC00DFFF29 /* GridViewContentView.swift */; };
 		3D66F8392959752A00DFFF29 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D66F8382959752A00DFFF29 /* Item.swift */; };
 		3D66F83B29597A3000DFFF29 /* SingleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D66F83A29597A3000DFFF29 /* SingleRow.swift */; };
+		3D7019262962BAFA00A9BB21 /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7019252962BAFA00A9BB21 /* UserDetailView.swift */; };
 		3D966BE329417ABE00BB96A9 /* SwiftUIExApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D966BE229417ABE00BB96A9 /* SwiftUIExApp.swift */; };
 		3D966BE529417ABE00BB96A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D966BE429417ABE00BB96A9 /* ContentView.swift */; };
 		3D966BE729417AC000BB96A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D966BE629417AC000BB96A9 /* Assets.xcassets */; };
@@ -48,6 +49,8 @@
 		3D966C0529417AC000BB96A9 /* SwiftUIExUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D966C0429417AC000BB96A9 /* SwiftUIExUITestsLaunchTests.swift */; };
 		3D966C122941841700BB96A9 /* ImageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D966C112941841700BB96A9 /* ImageContentView.swift */; };
 		3D9CE11329503D6F00143956 /* CustomToggleContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9CE11229503D6F00143956 /* CustomToggleContentView.swift */; };
+		3DA3ECD52962A10000DC8880 /* JSONContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3ECD42962A10000DC8880 /* JSONContentView2.swift */; };
+		3DA3ECD72962A16B00DC8880 /* WebService2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3ECD62962A16B00DC8880 /* WebService2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +101,7 @@
 		3D66F836295968FC00DFFF29 /* GridViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewContentView.swift; sourceTree = "<group>"; };
 		3D66F8382959752A00DFFF29 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		3D66F83A29597A3000DFFF29 /* SingleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleRow.swift; sourceTree = "<group>"; };
+		3D7019252962BAFA00A9BB21 /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
 		3D966BDF29417ABE00BB96A9 /* SwiftUIEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D966BE229417ABE00BB96A9 /* SwiftUIExApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExApp.swift; sourceTree = "<group>"; };
 		3D966BE429417ABE00BB96A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +116,9 @@
 		3D966C0429417AC000BB96A9 /* SwiftUIExUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3D966C112941841700BB96A9 /* ImageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageContentView.swift; sourceTree = "<group>"; };
 		3D9CE11229503D6F00143956 /* CustomToggleContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggleContentView.swift; sourceTree = "<group>"; };
+		3DA3ECD42962A10000DC8880 /* JSONContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONContentView2.swift; sourceTree = "<group>"; };
+		3DA3ECD62962A16B00DC8880 /* WebService2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService2.swift; sourceTree = "<group>"; };
+		3DA3ECD82962A6C400DC8880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +180,9 @@
 			children = (
 				12DF98E0295C5C06001D0257 /* JSONContentsView.swift */,
 				12DF98E2295C5CD7001D0257 /* WebService.swift */,
+				3DA3ECD42962A10000DC8880 /* JSONContentView2.swift */,
+				3DA3ECD62962A16B00DC8880 /* WebService2.swift */,
+				3D7019252962BAFA00A9BB21 /* UserDetailView.swift */,
 			);
 			path = JSONContetntsViews;
 			sourceTree = "<group>";
@@ -222,6 +232,7 @@
 		3D966BE129417ABE00BB96A9 /* SwiftUIEx */ = {
 			isa = PBXGroup;
 			children = (
+				3DA3ECD82962A6C400DC8880 /* Info.plist */,
 				12DF98DF295C5BED001D0257 /* JSONContetntsViews */,
 				1268F3052945C7EF00A4CD7D /* ContentsViews */,
 				3D66F8352959689400DFFF29 /* GridViews */,
@@ -413,12 +424,15 @@
 				3D47FAB429503B8500E753E1 /* TabViewContentView.swift in Sources */,
 				3D47FAB229502E1900E753E1 /* NavigationViewContentView.swift in Sources */,
 				3D66F8302959360F00DFFF29 /* EnvironmentObjectContentView.swift in Sources */,
+				3DA3ECD52962A10000DC8880 /* JSONContentView2.swift in Sources */,
+				3DA3ECD72962A16B00DC8880 /* WebService2.swift in Sources */,
 				3D47FA99294AB19700E753E1 /* ButtonContentView.swift in Sources */,
 				12DF98D8294F149F001D0257 /* AlertContentView.swift in Sources */,
 				3D47FA9B294ABC5100E753E1 /* ToggleContentVIew.swift in Sources */,
 				3D966C122941841700BB96A9 /* ImageContentView.swift in Sources */,
 				1268F3042945C7B000A4CD7D /* ShapeContentView.swift in Sources */,
 				12DF98DA295099CA001D0257 /* TextEditerContentView.swift in Sources */,
+				3D7019262962BAFA00A9BB21 /* UserDetailView.swift in Sources */,
 				3D47FAA1294FEE3900E753E1 /* WebViewContentView.swift in Sources */,
 				12DF98D6294F0E7F001D0257 /* ViewModifierContentView.swift in Sources */,
 				3D966BE529417ABE00BB96A9 /* ContentView.swift in Sources */,
@@ -596,6 +610,7 @@
 				DEVELOPMENT_TEAM = 87LF83524P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIEx/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -625,6 +640,7 @@
 				DEVELOPMENT_TEAM = 87LF83524P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIEx/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
