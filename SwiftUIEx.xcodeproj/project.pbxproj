@@ -15,6 +15,8 @@
 		12DF98DE2950A09B001D0257 /* StateContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DF98DD2950A09B001D0257 /* StateContentView.swift */; };
 		12DF98E1295C5C06001D0257 /* JSONContentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DF98E0295C5C06001D0257 /* JSONContentsView.swift */; };
 		12DF98E3295C5CD7001D0257 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DF98E2295C5CD7001D0257 /* WebService.swift */; };
+		12DF98E629643C1E001D0257 /* ProgressContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DF98E529643C1E001D0257 /* ProgressContentView.swift */; };
+		12DF98E92964E457001D0257 /* StopWatchContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DF98E82964E457001D0257 /* StopWatchContentView.swift */; };
 		3D47FA99294AB19700E753E1 /* ButtonContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47FA98294AB19700E753E1 /* ButtonContentView.swift */; };
 		3D47FA9B294ABC5100E753E1 /* ToggleContentVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47FA9A294ABC5100E753E1 /* ToggleContentVIew.swift */; };
 		3D47FA9D294AE34F00E753E1 /* ListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47FA9C294AE34F00E753E1 /* ListContentView.swift */; };
@@ -79,6 +81,8 @@
 		12DF98DD2950A09B001D0257 /* StateContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateContentView.swift; sourceTree = "<group>"; };
 		12DF98E0295C5C06001D0257 /* JSONContentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONContentsView.swift; sourceTree = "<group>"; };
 		12DF98E2295C5CD7001D0257 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		12DF98E529643C1E001D0257 /* ProgressContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressContentView.swift; sourceTree = "<group>"; };
+		12DF98E82964E457001D0257 /* StopWatchContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchContentView.swift; sourceTree = "<group>"; };
 		3D47FA98294AB19700E753E1 /* ButtonContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonContentView.swift; sourceTree = "<group>"; };
 		3D47FA9A294ABC5100E753E1 /* ToggleContentVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleContentVIew.swift; sourceTree = "<group>"; };
 		3D47FA9C294AE34F00E753E1 /* ListContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListContentView.swift; sourceTree = "<group>"; };
@@ -187,6 +191,22 @@
 			path = JSONContetntsViews;
 			sourceTree = "<group>";
 		};
+		12DF98E429643C0E001D0257 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				12DF98E529643C1E001D0257 /* ProgressContentView.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		12DF98E72964E434001D0257 /* StopWatch */ = {
+			isa = PBXGroup;
+			children = (
+				12DF98E82964E457001D0257 /* StopWatchContentView.swift */,
+			);
+			path = StopWatch;
+			sourceTree = "<group>";
+		};
 		3D47FAA2294FF32C00E753E1 /* WebKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -232,13 +252,15 @@
 		3D966BE129417ABE00BB96A9 /* SwiftUIEx */ = {
 			isa = PBXGroup;
 			children = (
-				3DA3ECD82962A6C400DC8880 /* Info.plist */,
+				12DF98E72964E434001D0257 /* StopWatch */,
+				12DF98E429643C0E001D0257 /* Progress */,
 				12DF98DF295C5BED001D0257 /* JSONContetntsViews */,
 				1268F3052945C7EF00A4CD7D /* ContentsViews */,
 				3D66F8352959689400DFFF29 /* GridViews */,
 				3D966BE229417ABE00BB96A9 /* SwiftUIExApp.swift */,
 				3D966BEB29417AC000BB96A9 /* Persistence.swift */,
 				3D966BE629417AC000BB96A9 /* Assets.xcassets */,
+				3DA3ECD82962A6C400DC8880 /* Info.plist */,
 				3D966BED29417AC000BB96A9 /* SwiftUIEx.xcdatamodeld */,
 				3D966BE829417AC000BB96A9 /* Preview Content */,
 				3D47FAA9294FFF2A00E753E1 /* SomeFile.html */,
@@ -429,6 +451,7 @@
 				3D47FA99294AB19700E753E1 /* ButtonContentView.swift in Sources */,
 				12DF98D8294F149F001D0257 /* AlertContentView.swift in Sources */,
 				3D47FA9B294ABC5100E753E1 /* ToggleContentVIew.swift in Sources */,
+				12DF98E92964E457001D0257 /* StopWatchContentView.swift in Sources */,
 				3D966C122941841700BB96A9 /* ImageContentView.swift in Sources */,
 				1268F3042945C7B000A4CD7D /* ShapeContentView.swift in Sources */,
 				12DF98DA295099CA001D0257 /* TextEditerContentView.swift in Sources */,
@@ -443,6 +466,7 @@
 				3D47FAAE2950097600E753E1 /* GridContentView.swift in Sources */,
 				12DF98E1295C5C06001D0257 /* JSONContentsView.swift in Sources */,
 				3D47FA9F294AEF3100E753E1 /* ListSectionContentVIew.swift in Sources */,
+				12DF98E629643C1E001D0257 /* ProgressContentView.swift in Sources */,
 				3D47FAB0295015A500E753E1 /* PlaceholderContentView.swift in Sources */,
 				3D966BE329417ABE00BB96A9 /* SwiftUIExApp.swift in Sources */,
 				3D66F8342959647500DFFF29 /* AppStorageContentView.swift in Sources */,
