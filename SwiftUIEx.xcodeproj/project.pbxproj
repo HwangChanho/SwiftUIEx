@@ -53,6 +53,9 @@
 		3D9CE11329503D6F00143956 /* CustomToggleContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9CE11229503D6F00143956 /* CustomToggleContentView.swift */; };
 		3DA3ECD52962A10000DC8880 /* JSONContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3ECD42962A10000DC8880 /* JSONContentView2.swift */; };
 		3DA3ECD72962A16B00DC8880 /* WebService2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3ECD62962A16B00DC8880 /* WebService2.swift */; };
+		3DFA71842965340200C4EF75 /* PhotoPickerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA71832965340200C4EF75 /* PhotoPickerContentView.swift */; };
+		3DFA718729653F3900C4EF75 /* CarculatorContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA718629653F3900C4EF75 /* CarculatorContentView.swift */; };
+		3DFA718929655AB600C4EF75 /* CalculationLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA718829655AB600C4EF75 /* CalculationLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +126,9 @@
 		3DA3ECD42962A10000DC8880 /* JSONContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONContentView2.swift; sourceTree = "<group>"; };
 		3DA3ECD62962A16B00DC8880 /* WebService2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService2.swift; sourceTree = "<group>"; };
 		3DA3ECD82962A6C400DC8880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3DFA71832965340200C4EF75 /* PhotoPickerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerContentView.swift; sourceTree = "<group>"; };
+		3DFA718629653F3900C4EF75 /* CarculatorContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarculatorContentView.swift; sourceTree = "<group>"; };
+		3DFA718829655AB600C4EF75 /* CalculationLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +258,8 @@
 		3D966BE129417ABE00BB96A9 /* SwiftUIEx */ = {
 			isa = PBXGroup;
 			children = (
+				3DFA718529653F2200C4EF75 /* Carculator */,
+				3DFA7182296533EF00C4EF75 /* PhotoPicker */,
 				12DF98E72964E434001D0257 /* StopWatch */,
 				12DF98E429643C0E001D0257 /* Progress */,
 				12DF98DF295C5BED001D0257 /* JSONContetntsViews */,
@@ -300,6 +308,23 @@
 				3D9CE11229503D6F00143956 /* CustomToggleContentView.swift */,
 			);
 			path = Toggle;
+			sourceTree = "<group>";
+		};
+		3DFA7182296533EF00C4EF75 /* PhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				3DFA71832965340200C4EF75 /* PhotoPickerContentView.swift */,
+			);
+			path = PhotoPicker;
+			sourceTree = "<group>";
+		};
+		3DFA718529653F2200C4EF75 /* Carculator */ = {
+			isa = PBXGroup;
+			children = (
+				3DFA718629653F3900C4EF75 /* CarculatorContentView.swift */,
+				3DFA718829655AB600C4EF75 /* CalculationLogic.swift */,
+			);
+			path = Carculator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -455,8 +480,10 @@
 				3D966C122941841700BB96A9 /* ImageContentView.swift in Sources */,
 				1268F3042945C7B000A4CD7D /* ShapeContentView.swift in Sources */,
 				12DF98DA295099CA001D0257 /* TextEditerContentView.swift in Sources */,
+				3DFA71842965340200C4EF75 /* PhotoPickerContentView.swift in Sources */,
 				3D7019262962BAFA00A9BB21 /* UserDetailView.swift in Sources */,
 				3D47FAA1294FEE3900E753E1 /* WebViewContentView.swift in Sources */,
+				3DFA718929655AB600C4EF75 /* CalculationLogic.swift in Sources */,
 				12DF98D6294F0E7F001D0257 /* ViewModifierContentView.swift in Sources */,
 				3D966BE529417ABE00BB96A9 /* ContentView.swift in Sources */,
 				3D9CE11329503D6F00143956 /* CustomToggleContentView.swift in Sources */,
@@ -470,6 +497,7 @@
 				3D47FAB0295015A500E753E1 /* PlaceholderContentView.swift in Sources */,
 				3D966BE329417ABE00BB96A9 /* SwiftUIExApp.swift in Sources */,
 				3D66F8342959647500DFFF29 /* AppStorageContentView.swift in Sources */,
+				3DFA718729653F3900C4EF75 /* CarculatorContentView.swift in Sources */,
 				3D47FAA6294FF7A300E753E1 /* WebViewController.swift in Sources */,
 				12DF98DC29509D43001D0257 /* ScrollViewReaderContentView.swift in Sources */,
 				3D47FAA4294FF33C00E753E1 /* WebView.swift in Sources */,
