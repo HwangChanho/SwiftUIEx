@@ -25,7 +25,11 @@ struct CalcButton: View {
 
 struct CarculatorContentView: View {
     
-    @State var geoMetryCircleHeight: CGFloat = 50
+    @State private var geoMetryCircleHeight: CGFloat = 50
+    @State private var display: String = "0"
+    @State private var isIntheTypingOfDigit = false
+    
+    var core = CalcLogic()
     
     let data = [
         ["AC", "+-", "%", "/"],
@@ -49,6 +53,9 @@ struct CarculatorContentView: View {
                     ForEach (0..<4) { indexJ in
                         CalcButton(buttonName: data[indexI][indexJ])
                             .aspectRatio(1, contentMode: .fit)
+                            .onTapGesture {
+                                calcAction(symbol: data[indexI][indexJ])
+                            }
                     }
                 }.padding(.horizontal, 10)
             }
@@ -63,19 +70,72 @@ struct CarculatorContentView: View {
                             Text(data[4][0])
                                 .font(.largeTitle)
                         })
+                        .onTapGesture {
+                            calcAction(symbol: data[4][0])
+                        }
                         .onAppear {
                             self.geoMetryCircleHeight = geometry.size.height
                         }
                 }
                 CalcButton(buttonName: data[4][1])
                     .aspectRatio(1, contentMode: .fit)
+                    .onTapGesture {
+                        calcAction(symbol: data[4][1])
+                    }
                 CalcButton(buttonName: data[4][2])
                     .aspectRatio(1, contentMode: .fit)
+                    .onTapGesture {
+                        calcAction(symbol: data[4][2])
+                    }
             }
             .aspectRatio(CGSize(width: geoMetryCircleHeight * 4 + 30, height: geoMetryCircleHeight), contentMode: .fit)
             .padding(.horizontal, 10)
         }.padding(.horizontal, 10)
     }
+    
+    func calcAction(symbol: String) {
+        if Int(symbol) != nil {
+            if isIntheTypingOfDigit {
+                display = display + symbol
+            } else {
+                isIntheTypingOfDigit = true
+                display = symbol
+            }
+            
+            if core.rememberSymbol == nil {
+                core.digit1 = Double(display)
+            } else {
+                core.digit2 = Double(display)
+            }
+            
+            core.digit1 = Double(display)
+            core.digit2 = Double(display)
+        } else {
+            if symbol != "=" {
+                core.rememberSymbol = symbol
+            }
+            
+            isIntheTypingOfDigit = false
+            
+            if symbol == "AC" {
+                core.digit1 = nil
+                core.digit2 = nil
+                core.result = nil
+                core.rememberSymbol = nil
+                display = "0"
+            }
+            
+            if symbol == "%" {
+                display = "\(String(describing: core.logic()))"
+                core.digit1 = Double(display)
+            }
+            
+            if symbol == "=" {
+                display = "\(String(describing: core.logic()))"
+            }
+        }
+    }
+    
 }
 
 struct CarculatorContentView_Previews: PreviewProvider {
